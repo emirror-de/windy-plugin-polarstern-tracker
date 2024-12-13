@@ -13,7 +13,7 @@
     let lines: L.Polyline[] = [];
 
     const loadResults = () => {
-        fetch('http://localhost:3000', {
+        fetch('https://polarstern.emirror.de', {
             mode: 'cors',
             headers: {
                 'Access-Control-Allow-Origin': '*',
